@@ -1,11 +1,13 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  ssr: false,
+  compatibilityDate: '2026-04-21',
   app: {
     head: {
       title: 'devLeticia',
       meta: [
-        { name: 'description', content: 'Portfólio de Letícia Lopes, desenvolvedora front-end e estudante de Sistemas de Informação.' },
+        { name: 'description', content: 'Portfólio de Letícia Lopes, desenvolvedora e estudante de Sistemas de Internet.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
       link: [
