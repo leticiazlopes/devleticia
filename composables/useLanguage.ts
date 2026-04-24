@@ -31,7 +31,14 @@ export const translations = {
         { label: 'Objetivo', value: 'Construir sistemas confiáveis e escaláveis' }
       ],
       download: 'Download CV',
+      preview: 'Ver CV',
       contact: 'Entrar em contato'
+    },
+    cv: {
+      title: 'Visualize antes de baixar',
+      description: 'Veja o currículo completo em PDF antes de fazer o download.',
+      download: 'Baixar CV',
+      back: 'Voltar'
     },
     projects: {
       title: 'Projetos em destaque',
@@ -112,7 +119,14 @@ export const translations = {
         { label: 'Goal', value: 'Build reliable and scalable systems' }
       ],
       download: 'Download CV',
+      preview: 'View CV',
       contact: 'Get in touch'
+    },
+    cv: {
+      title: 'Preview before download',
+      description: 'See the full resume in PDF before downloading.',
+      download: 'Download CV',
+      back: 'Back'
     },
     projects: {
       title: 'Featured projects',

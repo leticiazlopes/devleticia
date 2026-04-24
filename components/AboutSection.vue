@@ -18,7 +18,8 @@
             </a>
           </div>
           <div class="hero__actions">
-            <a class="button button--primary" href="/resumeLeticiaLopes.pdf" download>{{ t.about.download }}</a>
+            <a class="button button--primary" :href="resumePdf" download>{{ t.about.download }}</a>
+            <NuxtLink class="button button--secondary" to="/cv">{{ t.about.preview }}</NuxtLink>
             <a class="button button--secondary" href="mailto:leticiazlzlima@gmail.com">{{ t.about.contact }}</a>
           </div>
         </div>
@@ -28,10 +29,12 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import SectionTitle from '@/components/SectionTitle.vue'
 import { useLanguage } from '@/composables/useLanguage'
 
-const { t } = useLanguage()
+const { t, language } = useLanguage()
+const resumePdf = computed(() => language.value === 'pt' ? '/pt.pdf' : '/en.pdf')
 const profileImage = '/profile.jpeg'
 const socials = [
   { label: 'Email', link: 'mailto:leticiazlzlima@gmail.com', icon: '/icons/gmail.svg' },

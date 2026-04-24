@@ -1,1 +1,18 @@
-export { default } from "file:///Users/leticiazlopes/Documents/dev/devleticia/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export default {
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/leticiazlopes/Documents/dev/devleticia/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/leticiazlopes/Documents/dev/devleticia/node_modules/nuxt/dist/app/entry.js"
+  }
+}

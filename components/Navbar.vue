@@ -9,7 +9,7 @@
         <span class="navbar__burger"></span>
       </button>
       <transition name="nav-menu">
-        <ul v-show="isOpen" :class="['navbar__list', { 'navbar__list--open': isOpen }]">
+        <ul :class="['navbar__list', { 'navbar__list--open': isOpen }]">
           <li class="navbar__item"><a href="#about" @click="closeMenu">{{ t.nav.about }}</a></li>
           <li class="navbar__item"><a href="#projects" @click="closeMenu">{{ t.nav.projects }}</a></li>
           <li class="navbar__item"><a href="#blog" @click="closeMenu">{{ t.nav.blog }}</a></li>
