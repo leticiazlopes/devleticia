@@ -3,7 +3,7 @@
     <Navbar />
     <main>
       <HeroSection />
-      <AboutSection />
+      <!-- <AboutSection /> -->
       <!-- <ProjectsSection /> -->
       <!-- <BlogSection /> -->
       <SkillsSection />
@@ -15,7 +15,7 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue'
 import HeroSection from '@/components/HeroSection.vue'
-import AboutSection from '@/components/AboutSection.vue'
+// import AboutSection from '@/components/AboutSection.vue'
 // import ProjectsSection from '@/components/ProjectsSection.vue'
 // import BlogSection from '@/components/BlogSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'

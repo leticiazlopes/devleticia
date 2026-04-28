@@ -12,23 +12,25 @@ export const translations = {
       blog: 'Blog',
       skills: 'Skills',
       contact: 'Contato',
-      toggle: 'EN'
+      toggle: 'EN',
+      cv: 'CV',
+      ct: 'Contato'
     },
     hero: {
       badge: 'Desenvolvedora de Software',
       title: 'Olá, eu sou Letícia Lopes.',
-      text: 'Desenvolvedora Full Stack com foco em Sistemas Distribuídos, APIs Python e infraestrutura em nuvem. Mestranda em TI pelo IFPB.',
+      text: 'Desenvolvedora Full Stack com foco em interfaces dinâmicas e APIs escaláveis. Apaixonada por código limpo, testes e colaboração — pós-graduanda em Sistemas Distribuídos pelo IFPB.',
       primary: 'Ver projetos',
       secondary: 'Sobre mim'
     },
     about: {
       title: 'Sobre mim',
-      presentation: 'Letícia Lopes Lima, desenvolvedora de software com experiência em back-end Python, arquitetura de microsserviços e AWS. Mestranda em TI pelo IFPB, com atuação em projetos de pesquisa, empresa júnior e estágios na indústria.',
+      presentation: 'Desenvolvedora de software com experiência em projetos que integram interfaces dinâmicas e APIs escaláveis. Minha trajetória equilibra a entrega de soluções práticas no mercado com o aprofundamento em fundamentos de computação. Valorizo código limpo, testes e a partilha de conhecimento — acreditando que evoluímos mais juntos.',
       cards: [
-        { label: 'Formação', value: 'IFPB — Sistemas para Internet + Mestrado em TI' },
-        { label: 'Especialidade', value: 'Back-end · Sistemas Distribuídos · Cloud' },
-        { label: 'Ferramentas', value: 'Python, FastAPI, Vue, AWS, Docker' },
-        { label: 'Objetivo', value: 'Construir sistemas confiáveis e escaláveis' }
+        { label: 'Formação', value: 'IFPB — Sistemas para Internet + Pós-grad. Sistemas Distribuídos' },
+        { label: 'Especialidade', value: 'Full Stack · APIs Python · Front-end Vue.js' },
+        { label: 'Ferramentas', value: 'Python, Flask, FastAPI, Vue.js, AWS, Docker' },
+        { label: 'Objetivo', value: 'Resolver problemas complexos e contribuir para sistemas eficientes' }
       ],
       download: 'Download CV',
       preview: 'Ver CV',
@@ -65,7 +67,25 @@ export const translations = {
       button: 'Ver no GitHub'
     },
     skills: {
-      title: 'Tecnologias'
+      title: 'Tecnologias',
+      groups: [
+        {
+          category: 'Linguagens',
+          items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'Kotlin', 'SQL', 'PHP']
+        },
+        {
+          category: 'Frameworks & Bibliotecas',
+          items: ['Flask', 'FastAPI', 'Vue.js', 'Nuxt.js', 'React', 'Tailwind CSS', 'Spring Boot']
+        },
+        {
+          category: 'Cloud & DevOps',
+          items: ['AWS Lambda', 'AWS S3', 'AWS Bedrock', 'Docker', 'Git', 'CI/CD', 'Linux']
+        },
+        {
+          category: 'Conceitos',
+          items: ['Sistemas Distribuídos', 'Microsserviços', 'Clean Code', 'SOLID', 'Testes Unitários']
+        }
+      ]
     },
     blog: {
       title: 'Blog',
@@ -91,7 +111,17 @@ export const translations = {
     footer: {
       contactText: 'Desenvolvido com Nuxt 3 e Vue.js · Letícia Lopes Lima',
       email: 'Enviar e-mail'
-    }
+    },
+    contact: {
+      badge: 'Entre em contato',
+      title: 'Vamos conversar?',
+      subtitle: 'Estou aberta a oportunidades, colaborações e trocas sobre tecnologia.',
+      emailLabel: 'E-mail',
+      locationLabel: 'Localização',
+      location: 'João Pessoa, PB — Brasil',
+      availability: 'Disponível para oportunidades remotas',
+      socialLabel: 'Redes sociais',
+}
   },
   en: {
     nav: {
@@ -100,23 +130,25 @@ export const translations = {
       blog: 'Blog',
       skills: 'Skills',
       contact: 'Contact',
-      toggle: 'PT'
+      toggle: 'PT',
+      cv: 'CV',
+      ct: 'Contact'
     },
     hero: {
       badge: 'Software Developer',
       title: "Hi, I'm Letícia Lopes.",
-      text: 'Full Stack developer focused on Distributed Systems, Python APIs, and cloud infrastructure. Graduate student in IT at IFPB.',
+      text: 'Full Stack developer focused on dynamic interfaces and scalable APIs. Passionate about clean code, testing, and collaboration — graduate student in Distributed Systems at IFPB.',
       primary: 'View projects',
       secondary: 'About me'
     },
     about: {
       title: 'About me',
-      presentation: 'Letícia Lopes Lima, software developer with experience in Python back-end, microservices architecture, and AWS. Graduate student in IT at IFPB, with work across research, a junior company, and industry internships.',
+      presentation: 'Software developer with experience in projects that blend dynamic interfaces and scalable APIs. My journey balances delivering practical solutions in the market with deepening my understanding of computing fundamentals. I value clean code, testing, and knowledge sharing — believing we grow more together.',
       cards: [
-        { label: 'Education', value: 'IFPB — Internet Systems + M.Sc. in IT' },
-        { label: 'Expertise', value: 'Back-end · Distributed Systems · Cloud' },
-        { label: 'Tools', value: 'Python, FastAPI, Vue, AWS, Docker' },
-        { label: 'Goal', value: 'Build reliable and scalable systems' }
+        { label: 'Education', value: 'IFPB — Internet Systems + Grad. Distributed Systems' },
+        { label: 'Expertise', value: 'Full Stack · Python APIs · Vue.js Front-end' },
+        { label: 'Tools', value: 'Python, Flask, FastAPI, Vue.js, AWS, Docker' },
+        { label: 'Goal', value: 'Solve complex problems and contribute to efficient systems' }
       ],
       download: 'Download CV',
       preview: 'View CV',
@@ -153,7 +185,25 @@ export const translations = {
       button: 'View on GitHub'
     },
     skills: {
-      title: 'Technologies'
+      title: 'Technologies',
+      groups: [
+        {
+          category: 'Languages',
+          items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'Kotlin', 'SQL', 'PHP']
+        },
+        {
+          category: 'Frameworks & Libraries',
+          items: ['Flask', 'FastAPI', 'Vue.js', 'Nuxt.js', 'React', 'Tailwind CSS', 'Spring Boot']
+        },
+        {
+          category: 'Cloud & DevOps',
+          items: ['AWS Lambda', 'AWS S3', 'AWS Bedrock', 'Docker', 'Git', 'CI/CD', 'Linux']
+        },
+        {
+          category: 'Concepts',
+          items: ['Distributed Systems', 'Microservices', 'Clean Code', 'SOLID', 'Unit Testing']
+        }
+      ]
     },
     blog: {
       title: 'Blog',
@@ -179,7 +229,19 @@ export const translations = {
     footer: {
       contactText: 'Built with Nuxt 3 and Vue.js · Letícia Lopes Lima',
       email: 'Send email'
-    }
+    },
+    contact: {
+      badge: 'Get in touch',
+      title: "Let's talk?",
+      subtitle: 'Open to opportunities, collaborations, and conversations about tech.',
+      emailLabel: 'Email',
+      locationLabel: 'Location',
+      location: 'João Pessoa, PB — Brazil',
+      availability: 'Available for remote opportunities',
+      socialLabel: 'Social links',
+}
+
+
   }
 }
 

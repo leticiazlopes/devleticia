@@ -5,8 +5,8 @@
       <h1 class="hero__title">{{ t.hero.title }}</h1>
       <p class="hero__text">{{ t.hero.text }}</p>
       <div class="hero__actions">
-        <a class="button button--primary" href="#projects">{{ t.hero.primary }}</a>
-        <a class="button button--secondary" href="#about">{{ t.hero.secondary }}</a>
+        <a class="button button--primary" href="/cv">{{ t.nav.cv }}</a>
+        <a class="button button--secondary" href="/contact">{{ t.nav.contact }}</a>
       </div>
     </div>
 
