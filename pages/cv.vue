@@ -9,10 +9,7 @@
           <h1>{{ t.cv.description }}</h1>
         </div>
 
-        <div class="hero__actions cv-actions">
-          <a class="button button--primary" :href="resumePdf" download>{{ t.cv.download }}</a>
-          <NuxtLink class="button button--secondary" to="/">{{ t.cv.back }}</NuxtLink>
-        </div>
+        <!-- header actions removed to avoid duplicate download button; use toolbar controls below -->
       </div>
 
       <div class="cv-preview-card">
@@ -21,10 +18,10 @@
             <strong>{{ t.cv.title }}</strong>
             <p>{{ t.cv.description }}</p>
           </div> -->
-          <!-- <div class="hero__actions cv-toolbar-actions">
+          <div class="hero__actions cv-toolbar-actions">
             <a class="button button--primary" :href="resumePdf" download>{{ t.cv.download }}</a>
-            <NuxtLink class="button button--secondary" to="/">{{ t.cv.back }}</NuxtLink>
-          </div> -->
+            <NuxtLink class="button button--secondary" to="/#skills">{{ t.cv.back }}</NuxtLink>
+          </div>
         </div>
 
         <div class="cv-preview">

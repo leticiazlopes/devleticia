@@ -8,22 +8,7 @@
       <button class="navbar__toggle" type="button" @click="toggleMenu" :aria-expanded="isOpen" aria-label="Toggle navigation">
         <span class="navbar__burger"></span>
       </button>
-      <transition name="nav-menu">
-        <ul :class="['navbar__list', { 'navbar__list--open': isOpen }]">
-          <!-- <li class="navbar__item"><a href="#hero" @click="closeMenu">{{ t.nav.about }}</a></li> -->
-          <!-- <li class="navbar__item"><a href="#projects" @click="closeMenu">{{ t.nav.projects }}</a></li> -->
-          <!-- <li class="navbar__item"><a href="#blog" @click="closeMenu">{{ t.nav.blog }}</a></li> -->
-          <li class="navbar__item"><a href="#skills" @click="closeMenu">{{ t.nav.skills }}</a></li>
-          <!-- <li class="navbar__item"><a href="#contact" @click="closeMenu">{{ t.nav.contact }}</a></li> -->
-           <li class="navbar__item">
-            <NuxtLink to="cv" @click="closeMenu">{{ t.nav.cv }}</NuxtLink>
-          </li>
-          <li class="navbar__item">
-            <NuxtLink to="contact" @click="closeMenu">{{ t.nav.ct }}</NuxtLink>
-          </li>
-
-        </ul>
-      </transition>
+      <!-- Navigation sections removed per user request (keeps brand and language only) -->
 
       <div class="navbar__lang-wrapper" ref="langDropdown">
         <button
