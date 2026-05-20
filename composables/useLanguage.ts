@@ -90,6 +90,10 @@ export const translations = {
     blog: {
       title: 'Blog',
       subtitle: 'Reflexões sobre engenharia de software, sistemas distribuídos e carreira em TI.',
+      empty: 'Em desenvolvimento — os posts estarão por aqui em breve! 🚀',
+      readMore: 'Ler mais →',
+      previous: 'Anterior',
+      next: 'Próximo',
       posts: [
         {
           title: 'Interfaces modernas com Vue.js',
@@ -208,6 +212,10 @@ export const translations = {
     blog: {
       title: 'Blog',
       subtitle: 'Insights on software engineering, distributed systems, and tech careers.',
+      empty: 'Under development — posts coming soon! 🚀',
+      readMore: 'Read more →',
+      previous: 'Previous',
+      next: 'Next',
       posts: [
         {
           title: 'Modern interfaces with Vue.js',

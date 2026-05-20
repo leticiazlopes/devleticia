@@ -8,6 +8,7 @@
     "preview": "nuxi preview"
   },
   "dependencies": {
-    "nuxt": "^3.10.2"
+    "@notionhq/client": "^5.22.0",
+    "nuxt": "^3.13.2"
   }
 }
